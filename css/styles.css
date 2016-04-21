@@ -1,1 +1,31 @@
 /* add your CSS here */
+body {
+  background: #fff;
+}
+
+.container {
+}
+
+.row-centered {
+  text-align: center;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+}
+
+.article-border {
+  border: 2px solid #2a2a2a;
+  display: inline-block;
+}
+
+.article-title {
+  color: #000;
+  font-weight: bold;
+}
+
+.article-image img {
+  width: 18.75em;
+}
