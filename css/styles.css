@@ -4,28 +4,39 @@ body {
 }
 
 .container {
-}
-
-.row-centered {
-  text-align: center;
-}
-
-.col-centered {
-  display: inline-block;
-  float: none;
-  text-align: left;
+  margin-top: 1.563em;
+  width: 22.3em;
 }
 
 .article-border {
-  border: 2px solid #2a2a2a;
+  border: 0.063em solid #ddd;
+  box-shadow: 0 0.188em 0.188em 0.188em #ddd;
   display: inline-block;
 }
 
 .article-title {
   color: #000;
   font-weight: bold;
+  padding-left: 0.938em;
 }
 
 .article-image img {
+  margin: 0 auto;
   width: 18.75em;
+}
+
+.article-text {
+  border: 0.063em solid #ddd;
+  margin: 0.5em;
+}
+
+.article-text ul, p{
+  color: #000;
+  font-size: 0.8em;
+  padding: 0.4em 0.5em 0em 0.8em;
+}
+
+.article-text ul {
+  list-style: none;
+
 }
