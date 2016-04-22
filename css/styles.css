@@ -1,4 +1,5 @@
 /* add your CSS here */
+
 span {
   font-weight: bold;
 }
@@ -21,13 +22,10 @@ span {
 }
 
 .article-image {
+  display: block;
   margin: 0 auto;
-}
-
-.animal-img {
-  width: 300px;
-  height: 201px;
-  padding: 6px;
+  width: 18.75em;
+  height: 12.5625em;
 }
 
 .article-text {
